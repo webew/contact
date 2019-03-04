@@ -1,5 +1,5 @@
 <?php
-$key_secret = '6LeHKJUUAAAAACGztGqwPytwuEbCA4JpCcJVYSpY';
+$key_secret = 'toto';
 $g_response = $_POST['g-recaptcha-response'];
 $url = 'https://www.google.com/recaptcha/api/siteverify';
 $verifyResponse = file_get_contents($url.'?secret='.$key_secret.'&response='.$g_response);
